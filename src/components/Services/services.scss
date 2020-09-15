@@ -1,0 +1,69 @@
+.services{
+    .services_list{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 58px;
+        .list_card{
+            position: relative;
+            height: 514px;
+            overflow: hidden;
+            padding: 0;              
+            padding: 92px 80px;       
+            .list_card_hover{                
+                position: absolute;
+                left: 0;top: 0;right: 0;bottom: 514px;
+                z-index: -1;
+                background: rgba(136, 231, 165, 0.78);
+                transition: all 0.3s ease-in-out;
+            }
+            .list_card_bg{
+                position: absolute;
+                left: 0;
+                top: 0;
+                z-index: -1;
+                height: 514px;
+                width: 100%;
+                object-fit: cover;
+            }
+            .list_card_title{
+                font-size: 51px;
+                font-family: "Circe";
+                font-weight: 800;
+                color: #ffffff;
+                width: 60%;
+                margin-top: 0;
+                margin-bottom: 58px;
+            }
+            .list_card_text{
+                width: 60%;
+                opacity: 0;
+                font-family: 'Myriad Pro';
+                color: #ffffff;
+                font-size: 16px;
+                line-height: 24px;
+                transition: all 0.3s ease-in-out;
+            }
+            &.list_card-other{
+                width: 36%;
+            }
+            &.list_card-quad{
+                width: 32%;
+            }
+            &:hover{
+                cursor: pointer;
+                .list_card_hover{
+                    bottom: 0;
+                }
+                .list_card_text{
+                    opacity: 1;
+                }
+            }
+        }
+        
+    }
+    .services_btn{
+        text-align: center;
+        margin-top: 75px;
+        margin-bottom: 108px;
+    }
+}
