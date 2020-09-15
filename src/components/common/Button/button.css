@@ -1,0 +1,38 @@
+.button {
+  text-decoration: none;
+  width: 371px;
+  font-size: 26px;
+  height: 61px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Circe';
+  font-weight: 400;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.btn-white {
+  width: 264px;
+  color: #ffffff;
+  border: 6px solid #ffffff;
+  margin-top: 59px;
+}
+
+.btn-green {
+  color: #62cc82;
+  border: 6px solid #62cc82;
+}
+
+.btn-green-full {
+  color: #ffffff;
+  background: #62cc82;
+  border: 6px solid #62cc82;
+}
+/*# sourceMappingURL=button.css.map */

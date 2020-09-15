@@ -1,4 +1,48 @@
 .header {
-  height: 70px;
+  height: 63px;
+  background-color: #1a1e22;
+  opacity: 0.8;
+}
+
+.header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .container .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .container .logo a {
+  line-height: 63px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .container .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.header .container .menu .menu_item {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 85px;
+  line-height: 63px;
+  font-family: 'Circe';
+  font-weight: 300;
 }
 /*# sourceMappingURL=header.css.map */

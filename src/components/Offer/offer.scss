@@ -1,0 +1,26 @@
+.offer{
+    padding: 0;
+    .offer_title{
+        text-align: center;
+        height: 748px;
+        .offer_title_bg{
+            position: absolute;
+            top: 0;
+            left: 0;            
+            z-index: -1;
+            height: 748px;
+            width: 100%;
+            object-fit: cover;
+        }
+        .offer_title_text{
+            color: #ffffff;
+            text-align: center;
+            font-family: 'Circe';
+            font-size: 61px;
+            font-weight: 800;
+            text-shadow: 0 8px 32px #152726;
+            margin: 0;
+            padding-top: 320px;
+        }
+    }
+}
