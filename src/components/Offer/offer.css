@@ -28,41 +28,4 @@
   margin: 0;
   padding-top: 320px;
 }
-
-.offer .offer_description {
-  text-align: center;
-}
-
-.offer .offer_description .offer_description_title {
-  font-family: 'Circe';
-  font-weight: 400;
-  color: #362c2d;
-  font-size: 36px;
-  margin-bottom: 0;
-}
-
-.offer .offer_description .offer_description_line {
-  display: inline-block;
-  height: 3px;
-  width: 143px;
-  background-color: #62cc82;
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
-.offer .offer_description .offer_description_text {
-  display: inline-block;
-  width: 60%;
-  font-family: 'Myriad Pro';
-  color: #000000;
-  font-size: 16px;
-  line-height: 24px;
-  margin: 0;
-}
-
-.offer .offer_description .offer_description_text span {
-  color: #62cc82;
-  padding-bottom: 1px;
-  border-bottom: 1px solid #62cc82;
-}
 /*# sourceMappingURL=offer.css.map */

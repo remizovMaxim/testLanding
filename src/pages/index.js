@@ -8,6 +8,7 @@ import SEO from "../components/seo"
 import "normalize.css"
 import "../fonts/fonts.css"
 import "../components/common/grid.css"
+import Services from "../components/Services/Services"
 
 const IndexPage = () => (
   <>
@@ -18,6 +19,8 @@ const IndexPage = () => (
     <Offer />
 
     <Counter />
+
+    <Services />
 
     <Button linkBtn="#" linkText="Больше о нас" linkType="btn-green" />
     <Button linkBtn="#" linkText="Больше о нас" linkType="btn-green-full" />

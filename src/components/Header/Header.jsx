@@ -12,10 +12,10 @@ const Header = () => (
         </Link>
       </div>
       <menu className="menu">
-        <Link to="#" className="menu_item">
+        <Link to="#about" className="menu_item">
           О нас
         </Link>
-        <Link to="#" className="menu_item">
+        <Link to="#services" className="menu_item">
           Наши услуги
         </Link>
         <Link to="#" className="menu_item">
