@@ -1,0 +1,31 @@
+.counter {
+  background-color: #dee7e1;
+  display: flex;
+  justify-content: center;
+  .counter_block {
+    text-align: center;
+    box-sizing: border-box;
+    padding: 50px 30px;
+    max-width: 245px;
+    .counter_block_number {
+      font-family: "Circe";
+      font-weight: 700;
+      font-size: 114px;
+      line-height: 91px;
+      color: #5b675e;
+      margin: 0;
+      padding: 0;
+    }
+    .counter_block_description {
+      font-family: "Circe";
+      font-weight: 400;
+      font-size: 24px;
+      color: #5b675e;
+      margin: 0;
+      padding: 0;
+    }
+  }
+  .counter_block-border {
+    border-left: 2px solid #fbfbf7;
+  }
+}

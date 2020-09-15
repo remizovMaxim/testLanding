@@ -1,0 +1,41 @@
+.counter {
+  background-color: #dee7e1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.counter .counter_block {
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 50px 30px;
+  max-width: 245px;
+}
+
+.counter .counter_block .counter_block_number {
+  font-family: "Circe";
+  font-weight: 700;
+  font-size: 114px;
+  line-height: 91px;
+  color: #5b675e;
+  margin: 0;
+  padding: 0;
+}
+
+.counter .counter_block .counter_block_description {
+  font-family: "Circe";
+  font-weight: 400;
+  font-size: 24px;
+  color: #5b675e;
+  margin: 0;
+  padding: 0;
+}
+
+.counter .counter_block-border {
+  border-left: 2px solid #fbfbf7;
+}
+/*# sourceMappingURL=counter.css.map */
