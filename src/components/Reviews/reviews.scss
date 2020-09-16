@@ -1,54 +1,69 @@
-.reviews{    
-    background-color: #dee7e1;
-    padding-top: 49px;
-    .reviews_list{
+.reviews {
+  background-color: #dee7e1;
+  padding-top: 49px;
+  padding-bottom: 90px;
+  .reviews_list {
+    display: flex;
+    .reviews_list_item {
+      max-width: 360px;
+      width: 100%;
+      display: flex;
+      align-items: flex-start;
+      .item_avatar {
+        width: 101px;
+        margin-right: 18px;
+      }
+      .item_wrapper {
+        .item_wrapper_title {
+          font-family: "Circe";
+          font-size: 19px;
+          font-weight: normal;
+          margin-top: 0;
+        }
+        .item_wrapper_text {
+          font-family: "Myriad Pro";
+          font-size: 14px;
+          line-height: 21px;
+        }
+      }
+      &:first-child {
+        margin-right: 85px;
+      }
+      &:last-child {
+        margin-left: 85px;
+      }
+    }
+  }
+  .reviews-magazines {
+    margin-top: 100px;    
+    display: flex;
+    .magazine {
+      .magazine_block {
         display: flex;
-        .reviews_list_item{
-            max-width: 360px;
-            display: flex;
-            align-items: flex-start;
-            .item_avatar{
-                width: 101px;
-                margin-right: 18px;
-            }
-            .item_wrapper{
-                .item_wrapper_title{
-                    font-family: 'Circe';
-                    font-size: 19px;
-                    font-weight: normal;
-                    margin-top: 0;
-                }
-                .item_wrapper_text{
-                    font-family: "Myriad Pro";
-                    font-size: 14px;
-                    line-height: 21px;
-                }
-            }
-            &:first-child{
-                margin-right: 85px;
-            }
-            &:last-child{
-                margin-left: 85px;
-            }
+        align-items: center;
+        .magazine_block_text {
+          font-family: "Myriad Pro";
+          font-size: 20px;
+          font-weight: 400;
+          margin: 30px 20px;
         }
-    }
-    .reviews-magazines{
-        margin-top: 118px;
-        .magazine{
-            .magazine_text{
-                font-family: "Myriad Pro";
-                font-size: 20px;
-                font-weight: 400;
-                span{
-                    font-size: 118px;
-                    color: #9ae2b7;
-                    opacity: 0.6;
-                }
-            }
-            .magazine_name{
-                font-size: 16px;
-                font-style: italic;
-            }
+        span {
+          font-size: 118px;
+          line-height: 100px;
+          color: #9ae2b7;
+          opacity: 0.6;
+          align-self: flex-start;
+          margin-top: -20px;
+          &:first-child {
+            align-self: flex-end;
+          }
         }
+      }
+      .magazine_block_name {
+        font-size: 16px;
+        font-style: italic;
+        text-align: right;
+      }
     }
+  }
 }

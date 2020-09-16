@@ -35,17 +35,17 @@ const Reviews = function () {
                 </div>
                 <div className="reviews-magazines">
                     <div className="magazine">
-                        <p className="magazine_text">
-                            <span>«</span>Уникальная слоновья ферма! Ради усыновления слоненка сюда приезжают со всего мира. <span>»</span>
-                        </p>
-                        <p className="magazine_name">Магнитогорск Таймс</p>
+                        <div className="magazine_block">
+                            <span>«</span><p className="magazine_block_text">«Уникальная слоновья ферма! Ради усыновления слоненка сюда приезжают со всего мира.»</p><span>»</span>
+                        </div>
+                        <p className="magazine_block_name">Магнитогорск Таймс</p>
                     </div>
                     <div className="magazine">
-                        <p className="magazine_text">
-                            <span>«</span>Уникальная слоновья ферма! Ради усыновления слоненка сюда приезжают со всего мира. <span>»</span>
-                        </p>
-                        <p className="magazine_name">Магнитогорск Таймс</p>
-                    </div>
+                        <div className="magazine_block">
+                            <span>«</span><p className="magazine_block_text">«Уникальная слоновья ферма! Ради усыновления слоненка сюда приезжают со всего мира.»</p><span>»</span>
+                        </div>
+                        <p className="magazine_block_name">Магнитогорск Таймс</p>
+                    </div>                    
                     
                 </div>
             </div>
