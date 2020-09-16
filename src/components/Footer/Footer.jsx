@@ -1,10 +1,10 @@
 import { Link } from 'gatsby'
 import React from 'react'
-import './contact.css'
+import './footer.css'
 
 const Footer = function () {
     return (
-        <footer className='Footer'>
+        <footer className='footer'>
             <div className="footer_social">
                 <Link to='#'><img src={} alt="icon"/></Link>
             </div>
