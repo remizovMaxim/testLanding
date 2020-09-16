@@ -1,4 +1,69 @@
 .whois {
   margin-top: 97px;
 }
+
+.whois .whois_list {
+  padding-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.whois .whois_list .list_item {
+  max-width: 345px;
+  width: 100%;
+}
+
+.whois .whois_list .list_item .item_photo {
+  position: relative;
+}
+
+.whois .whois_list .list_item .item_photo .item_photo-hover {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  bottom: 10px;
+  right: 10px;
+  background-color: #88e7a5;
+  opacity: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.whois .whois_list .list_item .item_photo .item_photo-hover .item_photo-hover_icon {
+  width: 46px;
+  height: 46px;
+  margin: 0 3.5px;
+}
+
+.whois .whois_list .list_item .item_photo:hover .item_photo-hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.whois .whois_list .list_item .item_name {
+  font-family: 'Circe';
+  font-size: 26px;
+  color: #362c2d;
+  text-align: center;
+}
+
+.whois .whois_list .list_item .item_status {
+  font-family: "Myriad Pro";
+  font-size: 16px;
+  color: #362c2d;
+  text-align: center;
+}
 /*# sourceMappingURL=whois.css.map */
