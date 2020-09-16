@@ -18,7 +18,7 @@ const Header = () => (
         <Link to="#services" className="menu_item">
           Наши услуги
         </Link>
-        <Link to="#" className="menu_item">
+        <Link to="#elephants" className="menu_item">
           Наши слоны
         </Link>
         <Link to="#" className="menu_item">

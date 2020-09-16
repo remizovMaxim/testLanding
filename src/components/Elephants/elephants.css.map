@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,CAAA;EACN,OAAO,EAAE,KAAK;CACjB",
+    "sources": [
+        "elephants.scss"
+    ],
+    "names": [],
+    "file": "elephants.css"
+}

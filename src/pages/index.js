@@ -4,6 +4,7 @@ import Offer from "../components/Offer/Offer"
 import Counter from "../components/Counter/Counter"
 import Services from "../components/Services/Services"
 import Views from "../components/Views/Views"
+import Elephants from "../components/Elephants/Elephants"
 import Button from "../components/common/Button/Button"
 
 import SEO from "../components/seo"
@@ -24,6 +25,8 @@ const IndexPage = () => (
     <Services />
 
     <Views />
+
+    <Elephants />
 
     <Button linkBtn="#" linkText="Больше о нас" linkType="btn-green" />
     <Button linkBtn="#" linkText="Больше о нас" linkType="btn-green-full" />
