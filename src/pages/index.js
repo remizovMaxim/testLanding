@@ -9,6 +9,7 @@ import Reviews from "../components/Reviews/Reviews"
 import Whois from "../components/Whois/Whois"
 import Success from "../components/Success/Success"
 import Blog from "../components/Blog/Blog"
+import Contact from "../components/Contact/Contact"
 
 import SEO from "../components/seo"
 import "normalize.css"
@@ -29,6 +30,7 @@ const IndexPage = () => (
       <Whois />
       <Success />
       <Blog />
+      <Contact />
 
     </main>
   </>
