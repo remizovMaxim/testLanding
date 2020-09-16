@@ -1,4 +1,55 @@
 .elephants {
   display: block;
 }
+
+.elephants .elephants_block {
+  position: relative;
+  height: 780px;
+}
+
+.elephants .elephants_block .elephants_block_bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.elephants .elephants_block .elephants_block_text {
+  position: absolute;
+  bottom: -115px;
+  left: 45%;
+  width: 588px;
+  background: #ffffff;
+  -webkit-box-shadow: 0 37px 51px rgba(119, 119, 99, 0.21);
+          box-shadow: 0 37px 51px rgba(119, 119, 99, 0.21);
+  padding: 67px 61px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.elephants .elephants_block .elephants_block_text .elephants_block_text_p {
+  font-family: "Myriad Pro";
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+}
+
+.elephants .elephants_block .elephants_block_text .elephants_block_text_p:first-child {
+  padding-bottom: 20px;
+}
+
+.elephants .elephants_block .elephants_block_text .elephants_block_text_p span {
+  color: #62cc82;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #62cc82;
+}
+
+.elephants .elephants_btn {
+  margin-top: 198px;
+  text-align: center;
+}
 /*# sourceMappingURL=elephants.css.map */
