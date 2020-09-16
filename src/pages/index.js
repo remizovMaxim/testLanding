@@ -15,6 +15,7 @@ import SEO from "../components/seo"
 import "normalize.css"
 import "../fonts/fonts.css"
 import "../components/common/grid.css"
+import Footer from "../components/Footer/Footer"
 
 const IndexPage = () => (
   <>
@@ -31,8 +32,8 @@ const IndexPage = () => (
       <Success />
       <Blog />
       <Contact />
-
     </main>
+    <Footer />
   </>
 )
 
