@@ -1,4 +1,68 @@
 .reviews {
   background-color: #dee7e1;
+  padding-top: 49px;
+}
+
+.reviews .reviews_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.reviews .reviews_list .reviews_list_item {
+  max-width: 360px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.reviews .reviews_list .reviews_list_item .item_avatar {
+  width: 101px;
+  margin-right: 18px;
+}
+
+.reviews .reviews_list .reviews_list_item .item_wrapper .item_wrapper_title {
+  font-family: 'Circe';
+  font-size: 19px;
+  font-weight: normal;
+  margin-top: 0;
+}
+
+.reviews .reviews_list .reviews_list_item .item_wrapper .item_wrapper_text {
+  font-family: "Myriad Pro";
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.reviews .reviews_list .reviews_list_item:first-child {
+  margin-right: 85px;
+}
+
+.reviews .reviews_list .reviews_list_item:last-child {
+  margin-left: 85px;
+}
+
+.reviews .reviews-magazines {
+  margin-top: 118px;
+}
+
+.reviews .reviews-magazines .magazine .magazine_text {
+  font-family: "Myriad Pro";
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.reviews .reviews-magazines .magazine .magazine_text span {
+  font-size: 118px;
+  color: #9ae2b7;
+  opacity: 0.6;
+}
+
+.reviews .reviews-magazines .magazine .magazine_name {
+  font-size: 16px;
+  font-style: italic;
 }
 /*# sourceMappingURL=reviews.css.map */
