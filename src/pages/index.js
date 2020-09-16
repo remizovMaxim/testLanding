@@ -8,6 +8,7 @@ import Elephants from "../components/Elephants/Elephants"
 import Reviews from "../components/Reviews/Reviews"
 import Whois from "../components/Whois/Whois"
 import Button from "../components/common/Button/Button"
+import Success from "../components/Success/Success"
 
 import SEO from "../components/seo"
 import "normalize.css"
@@ -33,6 +34,8 @@ const IndexPage = () => (
     <Reviews />
 
     <Whois />
+
+    <Success />    
 
     <Button linkBtn="#" linkText="Больше о нас" linkType="btn-green" />
     <Button linkBtn="#" linkText="Больше о нас" linkType="btn-green-full" />

@@ -17,7 +17,7 @@ const Whois = function () {
             <div className="whois_list container">
                 <div className="list_item">
                     <div className="item_photo">
-                        <img src={whois1} className='item_photo' alt="photo" />
+                        <img src={whois1} className='item_photo' alt="photoStaff" />
                         <div className="item_photo-hover">
                             <Link to='#'><img src={inst} className='item_photo-hover_icon' alt="icon" /></Link>
                             <Link to='#'><img src={inst} className='item_photo-hover_icon' alt="icon" /></Link>
@@ -30,7 +30,7 @@ const Whois = function () {
                 </div>
                 <div className="list_item">
                     <div className="item_photo">
-                        <img src={whois1} className='item_photo' alt="photo" />
+                        <img src={whois2} className='item_photo' alt="photoStaff" />
                         <div className="item_photo-hover">
                             <Link to='#'><img src={inst} className='item_photo-hover_icon' alt="icon" /></Link>
                             <Link to='#'><img src={inst} className='item_photo-hover_icon' alt="icon" /></Link>
@@ -43,7 +43,7 @@ const Whois = function () {
                 </div>
                 <div className="list_item">
                     <div className="item_photo">
-                        <img src={whois1} className='item_photo' alt="photo" />
+                        <img src={whois3} className='item_photo' alt="photoStaff" />
                         <div className="item_photo-hover">
                             <Link to='#'><img src={inst} className='item_photo-hover_icon' alt="icon" /></Link>
                             <Link to='#'><img src={inst} className='item_photo-hover_icon' alt="icon" /></Link>
