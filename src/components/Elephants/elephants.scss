@@ -53,3 +53,15 @@
     }
   }
 }
+@media all and (max-width: 1024px) {
+  .elephants {
+    .elephants_block {
+      height: 540px;
+      .elephants_block_text {
+        left: 20px;
+        right: 20px;
+        width: auto;
+      }
+    }
+  }
+}

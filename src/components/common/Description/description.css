@@ -34,4 +34,10 @@
   padding-bottom: 1px;
   border-bottom: 1px solid #62cc82;
 }
+
+@media all and (max-width: 767px) {
+  .description p {
+    width: auto;
+  }
+}
 /*# sourceMappingURL=description.css.map */

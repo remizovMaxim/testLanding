@@ -1,3 +1,7 @@
+.services.slider {
+  display: none;
+}
+
 .services .services_list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -50,7 +54,7 @@
 .services .services_list .list_card .list_card_text {
   width: 60%;
   opacity: 0;
-  font-family: 'Myriad Pro';
+  font-family: "Myriad Pro";
   color: #ffffff;
   font-size: 16px;
   line-height: 24px;
@@ -124,7 +128,7 @@
   .services .services_list .list_card .list_card_text {
     width: 60%;
     opacity: 0;
-    font-family: 'Myriad Pro';
+    font-family: "Myriad Pro";
     color: #ffffff;
     font-size: 16px;
     line-height: 24px;
@@ -136,6 +140,27 @@
   }
   .services .services_list .list_card.list_card-quad {
     width: 32%;
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .services .services_list .list_card {
+    height: 376px;
+    padding: 32px 25px;
+  }
+  .services .services_list .list_card .list_card_title {
+    font-size: 33px;
+    width: auto;
+    margin-bottom: 28px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .services {
+    display: none;
+  }
+  .services.slider {
+    display: block;
   }
 }
 /*# sourceMappingURL=services.css.map */

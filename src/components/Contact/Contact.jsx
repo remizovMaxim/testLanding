@@ -37,7 +37,7 @@ const Contact = function () {
                 </Description>
                 <div className="container">
                     <form action="" className="form">
-                        <div>
+                        <div className='form-col'>
                             <input type="text" className='input' />
                             <input type="text" className='input' />
                         </div>

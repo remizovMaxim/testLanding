@@ -55,6 +55,10 @@
   }
 }
 
-@media all and (max-width: 118px){
-
+@media all and (max-width: 767px){
+.whois{
+  .whois_list{
+    flex-direction: column;
+  }
+}
 }

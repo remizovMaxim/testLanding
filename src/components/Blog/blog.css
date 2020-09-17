@@ -60,4 +60,13 @@
   color: #362c2d;
   text-align: left;
 }
+
+@media all and (max-width: 767px) {
+  .blog .blog_list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
 /*# sourceMappingURL=blog.css.map */

@@ -75,3 +75,63 @@
         }
     }
 }
+
+@media all and (max-width: 1024px){
+    .contact{
+        .contact-us{
+            .columns{
+                .contact-us_col{
+                    .email-link,
+                    .phone-number{
+                        font-size: 22px;
+                    }
+                }
+            }
+        }
+        .contact__follow{            
+            .form{
+                .form-col{
+                    display: flex;
+                    flex-direction: column;                    
+                }
+                .input{
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: 767px){
+    .contact{
+        .contact-us{
+            .columns{
+                flex-direction: column;
+                .contact-us_col{
+                    margin-bottom: 20px;
+                    .email-icon,
+                    .phone-icon{
+                        width: 40px;
+                        height: 40px;
+                    }
+                    .email-link,
+                    .phone-number{
+                        font-size: 22px;
+                    }
+                }
+            }
+        }
+        .contact__follow{            
+            .form{
+                .form-col{
+                    display: flex;
+                    flex-direction: column;                    
+                }
+                .input{
+                    margin-bottom: 20px;
+                    width: 264px;
+                }
+            }
+        }
+    }
+}

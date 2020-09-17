@@ -34,4 +34,18 @@
     padding-top: 220px;
   }
 }
+
+@media all and (max-width: 1024px) {
+  .offer .offer_title .offer_title_text {
+    padding-top: 320px;
+    font-size: 38px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .offer .offer_title .offer_title_text {
+    padding-top: 120px;
+    font-size: 38px;
+  }
+}
 /*# sourceMappingURL=offer.css.map */

@@ -4,6 +4,9 @@
   justify-content: center;
   margin-bottom: 100px;
   margin-top: 70px;
+  .f-100 {
+    display: none;
+  }
   .counter_block {
     text-align: center;
     box-sizing: border-box;
@@ -32,9 +35,9 @@
   }
 }
 
-@media all and (max-width: 1300px){
-  .counter {    
-    .counter_block {      
+@media all and (max-width: 1300px) {
+  .counter {
+    .counter_block {
       padding: 40px 25px;
       max-width: 245px;
       .counter_block_number {
@@ -43,13 +46,42 @@
       .counter_block_description {
         font-size: 18px;
       }
-    }    
+    }
   }
 }
-@media all and (max-width: 1080px){
-  .counter {    
-    .counter_block {      
-      padding: 35px 21px;            
-    }    
+@media all and (max-width: 1279px) {
+  .counter {
+    flex-wrap: wrap;
+    .counter_block {
+      padding: 35px 21px;
+      border: 2px solid #fbfbf7;
+    }
+    .f-100 {
+      display: block;
+      width: 100%;
+    }
+  }
+}
+@media all and (max-width: 1080px) {
+  .counter {
+    .counter_block {
+      padding: 35px 21px;
+    }
+  }
+}
+@media all and (max-width: 767px) {
+  .counter {
+    flex-wrap: wrap;
+    .counter_block {
+      padding: 25px 12px;
+      border: 2px solid #fbfbf7;
+    }
+    .f-100 {
+      display: none;
+    }
+    .f-50{
+      display: block;
+      width: 100%;
+    }
   }
 }

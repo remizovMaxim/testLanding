@@ -47,3 +47,11 @@
     }
   }
 }
+
+@media all and (max-width: 767px){
+  .blog{
+    .blog_list{
+      flex-direction: column;
+    }
+  }
+}

@@ -9,7 +9,7 @@ import card4 from "../../images/card4.png"
 import card5 from "../../images/card5.png"
 import card6 from "../../images/card6.png"
 
-const Services = function () {
+const Services = function () {  
   return (
     <section className="services" id="services">
       <Description title="Наши услуги">

@@ -94,3 +94,28 @@
     }
   }
 }
+@media all and (max-width: 767px) {
+  .success {    
+    .services_list {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      margin-top: 58px;
+      justify-content: center;
+      .list_card {
+        position: relative;
+        height: 367px;
+        width: 100%;
+        overflow: hidden;
+        padding: 0;
+        padding: 72px 25px;
+        margin: 1%;
+        .list_card_title {
+          font-size: 28px;
+          margin: 0;
+          width: 100%;
+        }
+      }
+    }
+  }
+}

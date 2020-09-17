@@ -73,4 +73,13 @@
   color: #362c2d;
   text-align: center;
 }
+
+@media all and (max-width: 767px) {
+  .whois .whois_list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
 /*# sourceMappingURL=whois.css.map */

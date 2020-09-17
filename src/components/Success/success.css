@@ -118,4 +118,36 @@
     width: 100%;
   }
 }
+
+@media all and (max-width: 767px) {
+  .success .services_list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: 58px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .success .services_list .list_card {
+    position: relative;
+    height: 367px;
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    padding: 72px 25px;
+    margin: 1%;
+  }
+  .success .services_list .list_card .list_card_title {
+    font-size: 28px;
+    margin: 0;
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=success.css.map */

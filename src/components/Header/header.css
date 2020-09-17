@@ -45,7 +45,75 @@
   text-decoration: none;
   margin-left: 85px;
   line-height: 63px;
-  font-family: 'Circe';
+  font-family: "Circe";
   font-weight: 300;
+}
+
+.header .container .burger {
+  display: none;
+}
+
+@media all and (max-width: 1024px) {
+  .header .container {
+    height: 100%;
+  }
+  .header .container .menu {
+    display: none;
+    position: absolute;
+    top: 63px;
+    right: 0;
+    width: 320px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .header .container .menu .menu_item {
+    background-color: rgba(26, 30, 34, 0.9);
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 0 15px;
+  }
+  .header .container .menu.open {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .header .container .burger {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .header .container .burger .burger_line {
+    width: 30px;
+    height: 3px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    background: #62cc82;
+  }
+  .header .container .burger.close .burger_line:first-child {
+    display: none;
+  }
+  .header .container .burger.close .burger_line {
+    position: absolute;
+    left: 0;
+    top: 22px;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  .header .container .burger.close .burger_line:last-child {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    left: 0;
+    top: 22px;
+  }
 }
 /*# sourceMappingURL=header.css.map */

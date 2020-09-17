@@ -16,6 +16,7 @@ import "normalize.css"
 import "../fonts/fonts.css"
 import "../components/common/grid.css"
 import Footer from "../components/Footer/Footer"
+import ServicesSlider from "../components/Services/ServicesSlider"
 
 const IndexPage = () => (
   <>
@@ -24,6 +25,7 @@ const IndexPage = () => (
     <main>
       <Offer />
       <Counter />
+      <ServicesSlider />
       <Services />
       <Views />
       <Elephants />

@@ -35,4 +35,11 @@
   background: #62cc82;
   border: 6px solid #62cc82;
 }
+
+@media all and (max-width: 767px) {
+  .button {
+    width: 264px;
+    font-size: 18px;
+  }
+}
 /*# sourceMappingURL=button.css.map */
