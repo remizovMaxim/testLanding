@@ -21,10 +21,10 @@ const Header = () => (
         <Link to="#elephants" className="menu_item">
           Наши слоны
         </Link>
-        <Link to="#" className="menu_item">
+        <Link to="#blog" className="menu_item">
           Блог
         </Link>
-        <Link to="#" className="menu_item">
+        <Link to="#contact" className="menu_item">
           Контакты
         </Link>
       </menu>
