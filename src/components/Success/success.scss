@@ -1,68 +1,96 @@
-.success{
-    display: block;
-    .services_list{
-        display: flex;
-        flex-wrap: wrap;
-        margin-top: 58px;
-        justify-content: center;
-        .list_card{
-            position: relative;
-            height: 367px;
-            width: 30%;            
-            overflow: hidden;
-            padding: 0;              
-            padding: 92px 60px;  
-            margin: 1%;     
-            .list_card_hover{                
-                position: absolute;
-                left: 0;top: 0;right: 0;bottom: 514px;
-                z-index: -1;
-                background: rgba(136, 231, 165, 0.78);
-                transition: all 0.3s ease-in-out;
-            }
-            .list_card_bg{
-                position: absolute;
-                left: 0;
-                top: 0;
-                z-index: -1;
-                height: 367px;
-                width: 100%;
-                object-fit: cover;
-            }
-            .list_card_title{
-                font-size: 51px;
-                line-height: 38px;                
-                font-family: "Circe";
-                font-weight: 800;
-                color: #ffffff;
-                width: 60%;
-                margin-top: 0;
-                margin-bottom: 58px;
-                opacity: 0;
-                transition: all 0.3s ease-in-out;
-            }
-            .list_card_text{
-                width: 60%;
-                opacity: 0;
-                font-family: 'Myriad Pro';
-                color: #ffffff;
-                font-size: 16px;
-                line-height: 24px;
-                transition: all 0.3s ease-in-out;
-            }            
-            &:hover{
-                cursor: pointer;
-                .list_card_title{
-                    opacity: 1;
-                }
-                .list_card_hover{
-                    bottom: 0;
-                }
-                .list_card_text{
-                    opacity: 1;
-                }
-            }
+.success {
+  display: block;
+  .services_list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 58px;
+    justify-content: center;
+    .list_card {
+      position: relative;
+      height: 367px;
+      width: 30%;
+      overflow: hidden;
+      padding: 0;
+      padding: 92px 60px;
+      margin: 1%;
+      .list_card_hover {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 514px;
+        z-index: -1;
+        background: rgba(136, 231, 165, 0.78);
+        transition: all 0.3s ease-in-out;
+      }
+      .list_card_bg {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: -1;
+        height: 367px;
+        width: 100%;
+        object-fit: cover;
+      }
+      .list_card_title {
+        font-size: 51px;
+        line-height: 38px;
+        font-family: "Circe";
+        font-weight: 800;
+        color: #ffffff;
+        width: 60%;
+        margin-top: 0;
+        margin-bottom: 58px;
+        opacity: 0;
+        transition: all 0.3s ease-in-out;
+      }
+      .list_card_text {
+        width: 60%;
+        opacity: 0;
+        font-family: "Myriad Pro";
+        color: #ffffff;
+        font-size: 16px;
+        line-height: 24px;
+        transition: all 0.3s ease-in-out;
+      }
+      &:hover {
+        cursor: pointer;
+        .list_card_title {
+          opacity: 1;
         }
-        
+        .list_card_hover {
+          bottom: 0;
+        }
+        .list_card_text {
+          opacity: 1;
+        }
+      }
     }
+  }
+}
+
+@media all and (max-width: 1080px) {
+  .success {
+    display: block;
+    .services_list {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 58px;
+      justify-content: center;
+      .list_card {
+        position: relative;
+        height: 367px;
+        width: 30%;
+        overflow: hidden;
+        padding: 0;
+        padding: 72px 25px;
+        margin: 1%;
+        .list_card_title {
+          font-size: 28px;
+          margin: 0;
+          width: 100%;
+        }
+      }
+    }
+  }
 }
