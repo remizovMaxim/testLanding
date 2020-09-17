@@ -1,9 +1,77 @@
 .contact{
+    padding-bottom: 71px;
     .contact-us{
-
+        background-color: #dee7e1;
+        padding-top: 65px;
+        padding-bottom: 85px;
+        .columns{
+            display: flex;
+            justify-content: space-around;
+            .contact-us_col{
+                div{
+                    display: flex;
+                    align-items: center;
+                    &:first-child{
+                        margin-bottom: 38px;
+                    }
+                }                
+                .phone-number,
+                .email-link{
+                    font-family: "Myriad Pro";
+                    font-size: 40px;
+                    text-decoration: none;
+                    color: #000000;
+                    &:hover{
+                        color: #414141;
+                    }
+                }
+                .email-link{
+                    padding-bottom: 2px;
+                        border-bottom: 2px solid #62cc82;
+                }
+                .email-icon,
+                .phone-icon{
+                    width: 60px;
+                    height: 60px;
+                    margin-right: 26px;
+                }
+                .city{
+                    text-transform: uppercase;
+                    font-family: "Myriad Pro";
+                    font-size: 17px;
+                    margin: 0;
+                }
+                .address{
+                    font-family: "Myriad Pro";
+                    font-size: 17px;
+                    margin-top: 0;
+                }
+            }
+        }
     }
-    .contact__follow_btn{
-        padding: 70px 0 97px;
-        text-align: center;
+    .contact__follow{
+        padding-top: 68px;
+        .form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 56px;
+            .input{
+                border: none;
+                border: 1px solid #62cc82;
+                outline: none;
+                width: 345px;
+                height: 61px;
+                margin: 0 10px;
+                font-size: 24px;
+                font-family: "Myriad Pro";
+                color: #362c2d;
+                padding: 5px 20px;
+                box-sizing: border-box;
+            }
+            .button{
+                margin-top: 80px;
+            }
+        }
     }
 }

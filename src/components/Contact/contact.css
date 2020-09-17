@@ -1,5 +1,106 @@
-.contact .contact__follow_btn {
-  padding: 70px 0 97px;
-  text-align: center;
+.contact {
+  padding-bottom: 71px;
+}
+
+.contact .contact-us {
+  background-color: #dee7e1;
+  padding-top: 65px;
+  padding-bottom: 85px;
+}
+
+.contact .contact-us .columns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.contact .contact-us .columns .contact-us_col div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact .contact-us .columns .contact-us_col div:first-child {
+  margin-bottom: 38px;
+}
+
+.contact .contact-us .columns .contact-us_col .phone-number,
+.contact .contact-us .columns .contact-us_col .email-link {
+  font-family: "Myriad Pro";
+  font-size: 40px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.contact .contact-us .columns .contact-us_col .phone-number:hover,
+.contact .contact-us .columns .contact-us_col .email-link:hover {
+  color: #414141;
+}
+
+.contact .contact-us .columns .contact-us_col .email-link {
+  padding-bottom: 2px;
+  border-bottom: 2px solid #62cc82;
+}
+
+.contact .contact-us .columns .contact-us_col .email-icon,
+.contact .contact-us .columns .contact-us_col .phone-icon {
+  width: 60px;
+  height: 60px;
+  margin-right: 26px;
+}
+
+.contact .contact-us .columns .contact-us_col .city {
+  text-transform: uppercase;
+  font-family: "Myriad Pro";
+  font-size: 17px;
+  margin: 0;
+}
+
+.contact .contact-us .columns .contact-us_col .address {
+  font-family: "Myriad Pro";
+  font-size: 17px;
+  margin-top: 0;
+}
+
+.contact .contact__follow {
+  padding-top: 68px;
+}
+
+.contact .contact__follow .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 56px;
+}
+
+.contact .contact__follow .form .input {
+  border: none;
+  border: 1px solid #62cc82;
+  outline: none;
+  width: 345px;
+  height: 61px;
+  margin: 0 10px;
+  font-size: 24px;
+  font-family: "Myriad Pro";
+  color: #362c2d;
+  padding: 5px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.contact .contact__follow .form .button {
+  margin-top: 80px;
 }
 /*# sourceMappingURL=contact.css.map */
