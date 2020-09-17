@@ -8,14 +8,16 @@ import iconInst from '../../images/inst.png'
 const Footer = function () {
     return (
         <footer className='footer'>
-            <div className="footer_logo">
-                <Link to='#'><img src={logoPath} alt="icon"/></Link>
-            </div>
-            <div className="footer_social">
-                <Link to='#'><img src={iconFb} alt="icon"/></Link>
-                <Link to='#'><img src={iconInst} alt="icon"/></Link>
-                <Link to='#'><img src={iconFb} alt="icon"/></Link>
-                <Link to='#'><img src={iconInst} alt="icon"/></Link>
+            <div className="container">
+                <div className="footer_logo">
+                    <Link to='#'><img src={logoPath} alt="icon" /></Link>
+                </div>
+                <div className="footer_social">
+                    <Link to='#'><img src={iconFb} alt="icon" /></Link>
+                    <Link to='#'><img src={iconInst} alt="icon" /></Link>
+                    <Link to='#'><img src={iconFb} alt="icon" /></Link>
+                    <Link to='#'><img src={iconInst} alt="icon" /></Link>
+                </div>
             </div>
         </footer>
     )

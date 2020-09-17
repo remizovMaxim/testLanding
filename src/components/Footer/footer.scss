@@ -1,3 +1,24 @@
 .footer{
     background-color: #3f4943;
+    .container{
+        height: 202px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .footer_logo{
+            width: 152px;
+            img{
+                width: 100%;
+            }
+        }
+        .footer_social{
+            a{
+                margin: 5px;
+                img{
+                    width: 60px;
+                    height: 60px;                
+                }
+            }
+        }
+    }
 }

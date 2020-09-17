@@ -1,4 +1,34 @@
 .footer {
   background-color: #3f4943;
 }
+
+.footer .container {
+  height: 202px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .container .footer_logo {
+  width: 152px;
+}
+
+.footer .container .footer_logo img {
+  width: 100%;
+}
+
+.footer .container .footer_social a {
+  margin: 5px;
+}
+
+.footer .container .footer_social a img {
+  width: 60px;
+  height: 60px;
+}
 /*# sourceMappingURL=footer.css.map */
