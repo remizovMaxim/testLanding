@@ -161,14 +161,19 @@
   }
   .services.slider {
     display: block;
+    width: 100%;
+    overflow-x: hidden;
   }
-  .services .owl-carousel .item .list_card {
+  .services .slick-list {
+    margin-top: 20px;
+  }
+  .services .slick-list .item .list_card {
     position: relative;
     height: 376px;
     overflow: hidden;
     padding: 72px 55px;
   }
-  .services .owl-carousel .item .list_card .list_card_hover {
+  .services .slick-list .item .list_card .list_card_hover {
     position: absolute;
     left: 0;
     top: 0;
@@ -179,7 +184,7 @@
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
   }
-  .services .owl-carousel .item .list_card .list_card_bg {
+  .services .slick-list .item .list_card .list_card_bg {
     position: absolute;
     left: 0;
     top: 0;
@@ -189,7 +194,7 @@
     -o-object-fit: cover;
        object-fit: cover;
   }
-  .services .owl-carousel .item .list_card .list_card_title {
+  .services .slick-list .item .list_card .list_card_title {
     font-size: 40px;
     font-family: "Circe";
     font-weight: 800;
@@ -198,7 +203,7 @@
     margin-top: 0;
     margin-bottom: 58px;
   }
-  .services .owl-carousel .item .list_card .list_card_text {
+  .services .slick-list .item .list_card .list_card_text {
     width: 60%;
     opacity: 0;
     font-family: "Myriad Pro";
@@ -208,19 +213,19 @@
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
   }
-  .services .owl-carousel .item .list_card.list_card-other {
+  .services .slick-list .item .list_card.list_card-other {
     width: 100%;
   }
-  .services .owl-carousel .item .list_card.list_card-quad {
+  .services .slick-list .item .list_card.list_card-quad {
     width: 100%;
   }
-  .services .owl-carousel .item .list_card:hover {
+  .services .slick-list .item .list_card:hover {
     cursor: pointer;
   }
-  .services .owl-carousel .item .list_card:hover .list_card_hover {
+  .services .slick-list .item .list_card:hover .list_card_hover {
     bottom: 0;
   }
-  .services .owl-carousel .item .list_card:hover .list_card_text {
+  .services .slick-list .item .list_card:hover .list_card_text {
     opacity: 1;
   }
 }

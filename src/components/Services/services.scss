@@ -147,8 +147,11 @@
     display: none;
     &.slider{
       display: block;
+      width: 100%;
+      overflow-x: hidden;
     }
-    .owl-carousel{
+    .slick-list{
+      margin-top: 20px;
       .item{
         .list_card {
           position: relative;
