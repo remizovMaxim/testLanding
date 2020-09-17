@@ -31,3 +31,25 @@
     border-left: 2px solid #fbfbf7;
   }
 }
+
+@media all and (max-width: 1300px){
+  .counter {    
+    .counter_block {      
+      padding: 40px 25px;
+      max-width: 245px;
+      .counter_block_number {
+        font-size: 60px;
+      }
+      .counter_block_description {
+        font-size: 18px;
+      }
+    }    
+  }
+}
+@media all and (max-width: 1080px){
+  .counter {    
+    .counter_block {      
+      padding: 35px 21px;            
+    }    
+  }
+}

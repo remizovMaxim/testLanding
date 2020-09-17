@@ -20,6 +20,9 @@
 .blog .blog_list .list_item {
   max-width: 345px;
   width: 100%;
+  border: 5px solid transparent;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .blog .blog_list .list_item .item_photo {

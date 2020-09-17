@@ -11,6 +11,8 @@
     .list_item {
       max-width: 345px;
       width: 100%;
+      border: 5px solid transparent;
+      box-sizing: border-box;
       .item_photo {
         position: relative;
         .item_photo-img{

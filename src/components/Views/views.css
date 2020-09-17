@@ -28,9 +28,10 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  width: 100%;
 }
 
-.views .views_puzzle .views_puzzle-horizontal .views_puzzle-small50 img {
+.views .views_puzzle .views_puzzle-horizontal img {
   display: block;
   width: 100%;
   height: 100%;
@@ -59,5 +60,11 @@
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+@media all and (max-width: 1180px) {
+  .views .views_puzzle {
+    height: 676px;
+  }
 }
 /*# sourceMappingURL=views.css.map */

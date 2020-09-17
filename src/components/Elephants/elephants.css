@@ -53,4 +53,10 @@
   margin-bottom: 74px;
   text-align: center;
 }
+
+@media all and (max-width: 1180px) {
+  .elephants .elephants_block .elephants_block_text {
+    left: 28%;
+  }
+}
 /*# sourceMappingURL=elephants.css.map */

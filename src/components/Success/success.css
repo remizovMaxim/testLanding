@@ -9,6 +9,9 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-top: 58px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .success .services_list .list_card {

@@ -15,10 +15,17 @@
 .whois .whois_list .list_item {
   max-width: 345px;
   width: 100%;
+  border: 5px solid transparent;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .whois .whois_list .list_item .item_photo {
   position: relative;
+}
+
+.whois .whois_list .list_item .item_photo .item_photo-img {
+  width: 100%;
 }
 
 .whois .whois_list .list_item .item_photo .item_photo-hover {
