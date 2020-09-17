@@ -162,5 +162,66 @@
   .services.slider {
     display: block;
   }
+  .services .owl-carousel .item .list_card {
+    position: relative;
+    height: 376px;
+    overflow: hidden;
+    padding: 72px 55px;
+  }
+  .services .owl-carousel .item .list_card .list_card_hover {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 514px;
+    z-index: -1;
+    background: rgba(136, 231, 165, 0.78);
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  .services .owl-carousel .item .list_card .list_card_bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    height: 376px;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .services .owl-carousel .item .list_card .list_card_title {
+    font-size: 40px;
+    font-family: "Circe";
+    font-weight: 800;
+    color: #ffffff;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 58px;
+  }
+  .services .owl-carousel .item .list_card .list_card_text {
+    width: 60%;
+    opacity: 0;
+    font-family: "Myriad Pro";
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 24px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  .services .owl-carousel .item .list_card.list_card-other {
+    width: 100%;
+  }
+  .services .owl-carousel .item .list_card.list_card-quad {
+    width: 100%;
+  }
+  .services .owl-carousel .item .list_card:hover {
+    cursor: pointer;
+  }
+  .services .owl-carousel .item .list_card:hover .list_card_hover {
+    bottom: 0;
+  }
+  .services .owl-carousel .item .list_card:hover .list_card_text {
+    opacity: 1;
+  }
 }
 /*# sourceMappingURL=services.css.map */

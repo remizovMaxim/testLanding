@@ -12,10 +12,9 @@ import card4 from "../../images/card4.png"
 import card5 from "../../images/card5.png"
 import card6 from "../../images/card6.png"
 
-const ServicesSlider = function () {
-    // $(window).resize(() => console.log('resize window'))
+const ServicesSlider = function () {       
     return (
-        <section className="services slider" id="services">
+        <section className="services slider" id="services">            
             <Description title="Наши услуги">
                 <p>
                     Мы предоставляем полный спектр услуг: от катания на слонах до помощи
@@ -27,10 +26,12 @@ const ServicesSlider = function () {
             <OwlCarousel
                 className="owl-theme"
                 loop
+                items={1}
                 margin={10}
-                nav
-            >
-                <div class="item">
+                nav={false}
+                dots={false}
+            >            
+                <div className="item">
                     <div className="list_card list_card-quad">
                         <img src={card1} className="list_card_bg" alt="background" />
                         <div className="list_card_hover"></div>
@@ -40,7 +41,7 @@ const ServicesSlider = function () {
                         деловых встреч.</p>
                     </div>
                 </div>
-                <div class="item">
+                <div className="item">
                     <div className="list_card list_card-other">
                         <img src={card2} className="list_card_bg" alt="background" />
                         <div className="list_card_hover"></div>
@@ -50,7 +51,7 @@ const ServicesSlider = function () {
                         деловых встреч.</p>
                     </div>
                 </div>
-                <div class="item">
+                <div className="item">
                     <div className="list_card list_card-quad">
                         <img src={card4} className="list_card_bg" alt="background" />
                         <div className="list_card_hover"></div>
@@ -60,7 +61,7 @@ const ServicesSlider = function () {
                         деловых встреч.</p>
                     </div>
                 </div>
-                <div class="item">
+                <div className="item">
                     <div className="list_card list_card-quad">
                         <img src={card5} className="list_card_bg" alt="background" />
                         <div className="list_card_hover"></div>
@@ -70,7 +71,7 @@ const ServicesSlider = function () {
                         деловых встреч.</p>
                     </div>
                 </div>
-                <div class="item">
+                <div className="item">
                     <div className="list_card list_card-other">
                         <img src={card6} className="list_card_bg" alt="background" />
                         <div className="list_card_hover"></div>
@@ -80,7 +81,7 @@ const ServicesSlider = function () {
                         деловых встреч.</p>
                     </div>
                 </div>
-                <div class="item">
+                <div className="item">
                     <div className="list_card list_card-quad">
                         <img src={card2} className="list_card_bg" alt="background" />
                         <div className="list_card_hover"></div>

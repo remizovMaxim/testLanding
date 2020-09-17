@@ -1,4 +1,9 @@
 import React from "react"
+import SEO from "../components/seo"
+import "normalize.css"
+import "../fonts/fonts.css"
+import "../components/common/grid.css"
+
 import Header from "../components/Header/Header"
 import Offer from "../components/Offer/Offer"
 import Counter from "../components/Counter/Counter"
@@ -10,23 +15,18 @@ import Whois from "../components/Whois/Whois"
 import Success from "../components/Success/Success"
 import Blog from "../components/Blog/Blog"
 import Contact from "../components/Contact/Contact"
-
-import SEO from "../components/seo"
-import "normalize.css"
-import "../fonts/fonts.css"
-import "../components/common/grid.css"
 import Footer from "../components/Footer/Footer"
 import ServicesSlider from "../components/Services/ServicesSlider"
 
 const IndexPage = () => (
-  <>
-    <SEO title="Emailmatrix" />
-    <Header />
+  <>  
+      <SEO title="Emailmatrix" />    
     <main>
+      <Header />
       <Offer />
       <Counter />
-      <ServicesSlider />
       <Services />
+      <ServicesSlider />
       <Views />
       <Elephants />
       <Reviews />
